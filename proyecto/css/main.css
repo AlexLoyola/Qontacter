@@ -1,3 +1,188 @@
+.actividad{
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 10%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow:hidden;
+}
+.actividad :hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.actContenido{
+    position:absolute;
+    height:50%; /* = 100% - 2*10% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5% 5%;
+}
+.table{
+    display:table;
+    height:100%;
+    width:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+    height:100%;
+    width:100%;
+    border-style: solid;
+    border-top:1px;
+    border-bottom: 1px;
+    border-right:1px;
+    padding-left:4px;
+}
+.actividades{
+    height:250px;
+    overflow: scroll;
+    background-color: white;
+    border-style:solid;
+    border-width: 2px;
+    border-color:rgba(0,0,0,0.2);
+}
+.comisiones{
+    height:250px;
+}
+.pbb{
+    background-image: none;
+    background-color: #456cb7;
+}
+.pbg{
+    background-image: none;
+    background-color: #237322;
+}
+.pbo{
+    background-image: none;
+    background-color: #d6823a;
+}
+.unaComision{
+    background-color: rgba(0,0,0,0.05);
+    padding: 4px 4px 4px 4px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+
+}
+.progress{
+    margin:4px 50px 4px 4px;
+    display: inline-block;
+        width:80%;
+}
+.titulosprogress{
+    text-align:right;
+}
+.progress-bar{
+
+}
+.inlb{
+    display: inline-block;
+}
+.profileCont{
+    padding: 5px;
+    overflow: scroll;
+    background-color: white;
+    border-style:solid;
+    border-width: 2px;
+    border-color:rgba(0,0,0,0.2);
+}
+.contComisiones{
+
+}
+.comision{
+    margin:10px;
+    padding:10px;
+    width:190px;
+    display:inline-block;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+.participante{
+    border-radius: 100px;
+}
+.participantes{
+    overflow: scroll;
+    height:48px;
+}
+
+.user_b{
+    height:40px;
+}
+.user_b :hover{
+    height:40px;
+    background-color:rgba(0,0,0,.03);
+    cursor: pointer;
+}
+.user_m{
+    height:32px;
+    padding:4px 0px 4px 0px;
+}
+.user_img{
+    border:1px solid rgba(0, 0, 0, .15);
+    display: inline-block;
+    height:32px;
+    pointer-events: none;
+
+}
+.user_pp{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 5px 2px 5px 0px rgba(0,0,0,0.4);
+
+}
+.user_name{
+    padding: 0px 0px 0px 8px;
+    display: inline-block;
+    line-height: 32px;
+    pointer-events: none;
+
+}
+.user_lvl{
+    padding: 0px 8px 0px 0px;
+    display: inline-block;
+    float:right;
+    line-height: 32px;
+    pointer-events: none;
+    background-color: rgba(0,80,0,.8);
+    border-radius: 50px;
+    color:white;
+    font-weight: bold;
+    width:30px;
+    text-align: center;
+    border-style: solid;
+    border-width: 7px;
+    border-top:1px;
+    border-right: 1px;
+    border-bottom:1px;
+    border-color: green;
+    box-shadow: inset 5px 2px 5px 0px rgba(0,0,0,0.4);
+}
+.members{
+    height:500px;
+    overflow: scroll;
+}
+.medalCont{
+    overflow:scroll;
+    height:230px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.profilebtmcont{
+    height: 180px;
+    overflow: scroll;
+}
+.medal{
+    border-radius: 100px;
+    width:60px;
+    height:60px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
+    margin:5px;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color:red;
+}
 a :hover{
     cursor:pointer;
 }
@@ -19,7 +204,7 @@ a :hover{
     background-image: url("../images/qr2.png");
 
     /* Set a specific height */
-    height: 50%; 
+    height: 10120%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
