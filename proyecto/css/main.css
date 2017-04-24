@@ -76,6 +76,58 @@
 .inlb{
     display: inline-block;
 }
+.groupCont{
+    overflow: scroll;
+    background-color: white;
+    border-style:solid;
+    border-width: 2px;
+    border-color:rgba(0,0,0,0.2);
+}
+.groupMembs{
+    margin:5px 4px 10px 4px;
+    padding:2px 4px 10px 4px;
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.4);
+    height:400px;
+}
+.announcementsCont{
+    height:400px;
+    overflow: scroll;
+}
+.announcementsCont p{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding:5px;
+}
+.announcementsCont textarea, .tasksCont textarea{
+    width:100%;
+}
+.announcementsCont button, .tasksCont button{
+    margin-bottom:10px;
+}
+.announcementsCont p span{
+    font-size: .8em;
+}
+.tasksCont{
+    height:400px;
+    overflow: scroll;
+}
+.tasksCont > div{
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 5px;
+    padding:5px;
+    margin-bottom: 7px;
+}
+.glyphicon-ok,.glyphicon-remove,.glyphicon-pencil{
+    cursor: pointer;
+    font-size: 10px;
+}
+.glyphicon-ok:hover ,.glyphicon-remove:hover,.glyphicon-pencil:hover{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#makeMeDraggable { width: 300px; height: 300px; background: red; }
+
 .profileCont{
     padding: 5px;
     overflow: scroll;
@@ -186,9 +238,9 @@
 a :hover{
     cursor:pointer;
 }
-.parallax{ 
+.contback{ 
     /* The image used */
-    background-image: url("../images/qr4.png");
+    background-image: url("../images/teamwork.jpg");
 
     /* Set a specific height */
     height: 100%; 

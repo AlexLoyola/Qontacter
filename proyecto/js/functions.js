@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip(); 
-	$("#space").attr("style", "height:"+$(window).height()/12+"px");
+	$("#space").attr("style", "height:"+$(window).height()/9+"px");
 	$("a.newacc").click(function(){
 		var actual = $("button").text();
 		if(actual=="Sign in"){
